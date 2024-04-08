@@ -1,0 +1,56 @@
+.blog {
+    display: flex;
+    flex-direction: column;
+
+    margin-top: 7.1rem;
+    background-color: #EDF7FA;
+}
+
+.blog-content {
+    margin-left: 16.3rem;
+    margin-top: 2.1rem;
+}
+
+.blog-text {
+    font-weight: 400;
+    font-size: 2.2rem;
+}
+
+.post-cards {
+    display: flex;
+    gap: 9.2rem;
+}
+
+.card {
+    background-color: #FFF;
+    width: 41.8rem;
+    margin-top: 1.6rem;
+    border-radius: .4rem;
+    margin-bottom: 3.2rem;
+}
+
+.card-title {
+    font-size: 2.6rem;
+    font-weight: 700;
+    padding: 2rem;
+    color: #21243D;
+}
+
+.card-subtitle {
+    display: flex;
+    gap: 4.5rem;
+    padding: 1rem 2rem;
+}
+
+.card-subtitle span {
+    font-size: 1.8rem;
+    font-weight: 400;
+    color: #21243D;
+}
+
+.card-text {
+    padding: 2rem;
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: 2.3rem;
+}

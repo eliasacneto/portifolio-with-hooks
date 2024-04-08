@@ -1,0 +1,29 @@
+.footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 8.3rem;
+}
+
+.icons-link {
+    display: flex;
+    gap: 3.5rem;
+    font-size: 3rem;
+}
+
+.footer-link {
+    text-decoration: none;
+    color: #21243D;
+    transition: color .40s ease-in-out;
+}
+
+.footer-link:hover {
+    color: #FF6464;
+}
+
+.footer-text {
+    font-size: 1.4rem;
+    font-weight: 400;
+    margin-top: 2.6rem;
+    margin-bottom: 5.4rem;
+}

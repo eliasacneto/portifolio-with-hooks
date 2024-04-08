@@ -1,0 +1,22 @@
+.header {
+    display: flex;
+    flex-direction: column;
+    margin-left: 16.3rem;
+    margin-top: 16rem;
+
+}
+
+.greetings {
+    font-size: 4.4rem;
+    font-weight: 700;
+    width: 50.6rem;
+    line-height: 6rem;
+}
+
+.greetings-subtitle {
+    font-size: 1.6rem;
+    font-weight: 400;
+    width: 49.7rem;
+    margin-top: 3rem;
+    margin-bottom: 3.8rem;
+}
