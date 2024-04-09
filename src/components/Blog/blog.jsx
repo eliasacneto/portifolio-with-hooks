@@ -18,7 +18,7 @@ const Blog = () => {
                         <h2 className='card-title'>Making a desing system from scratch</h2>
                         <div className="card-subtitle">
                             <span>12 Feb 2030</span>
-                            <span>Design, Pattern</span>
+                            <span>Figma, Icon Design</span>
                         </div>
                         <p className='card-text'>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
                     </div>
