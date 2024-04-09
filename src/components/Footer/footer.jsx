@@ -6,7 +6,7 @@ import './footer.css'
 
 const Footer = () => {
     return (
-        <div className="footer">
+        <div className="footer" id='contact'>
             <div className="icons-link">
                 <a className='footer-link' href='#'><FontAwesomeIcon icon={faFacebookSquare} /></a>
 

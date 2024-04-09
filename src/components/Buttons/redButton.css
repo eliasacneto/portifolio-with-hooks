@@ -9,6 +9,8 @@
     border-radius: .2rem;
     transition: background-color .40s ease-in-out;
     cursor: pointer;
+    text-decoration: none;
+    text-align: center;
 }
 
 .btn-red:hover {
