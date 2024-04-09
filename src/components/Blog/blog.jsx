@@ -17,7 +17,7 @@ const Blog = () => {
                     <div className="card">
                         <h2 className='card-title'> <a className='project-link' href='https://clubedosgeeks.com.br/programacao/java/android-studio-como-criar-botao-de-avaliar-aplicativo-na-playstore' target='_blank'>Como criar botão de Avaliar aplicativo na PlayStore</a></h2>
                         <div className="card-subtitle">
-                            <span>13 Feb 2019</span>
+                            <span>13 Fevereiro 2019</span>
                             <span>Java, Play Store</span>
                         </div>
                         <p className='card-text'>Se você está com dificuldades de como colocar um botão de avaliação de aplicativos (Estrelinhas) que ao clicar já redireciona para o aplicativo na PlayStore esse tutorial é para você 🙂</p>
