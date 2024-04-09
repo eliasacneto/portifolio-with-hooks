@@ -20,3 +20,43 @@
     margin-top: 3rem;
     margin-bottom: 3.8rem;
 }
+
+@media screen and (max-width: 768px) {
+    .header {
+        margin-left: 2rem;
+        margin-top: 10rem;
+    }
+
+    .greetings {
+        font-size: 3.2rem;
+        width: 100%;
+        line-height: 4.5rem;
+    }
+
+    .greetings-subtitle {
+        font-size: 1.4rem;
+        width: 100%;
+        margin-top: 2rem;
+        margin-bottom: 2.5rem;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .header {
+        margin-left: 1rem;
+        margin-top: 8rem;
+    }
+
+    .greetings {
+        font-size: 2.4rem;
+        width: 100%;
+        line-height: 3.5rem;
+    }
+
+    .greetings-subtitle {
+        font-size: 1.2rem;
+        width: 100%;
+        margin-top: 1.5rem;
+        margin-bottom: 2rem;
+    }
+}

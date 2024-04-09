@@ -17,3 +17,10 @@
     background-color: #000;
 
 }
+
+.swal2-popup {
+    font-size: 1.6rem;
+    width: auto !important;
+    max-width: 600px;
+    margin: 0 1rem;
+}

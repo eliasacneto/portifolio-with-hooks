@@ -9,6 +9,7 @@
 .blog-content {
     margin-left: 16.3rem;
     margin-top: 2.1rem;
+    margin-right: 16.3rem;
 }
 
 .blog-text {
@@ -53,4 +54,44 @@
     font-size: 1.6rem;
     font-weight: 400;
     line-height: 2.3rem;
+}
+
+@media screen and (max-width: 768px) {
+    .blog-content {
+        margin-left: 2rem;
+        margin-right: 2rem;
+    }
+
+    .post-cards {
+        flex-direction: column;
+        gap: 3rem;
+    }
+
+    .card {
+        width: 100%;
+        margin-left: 0;
+        margin-right: 0;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .card-title {
+        font-size: 2rem;
+    }
+
+    .card-subtitle {
+        flex-direction: column;
+        gap: 1rem;
+        padding: 1rem;
+    }
+
+    .card-subtitle span {
+        font-size: 1.4rem;
+    }
+
+    .card-text {
+        padding: 1rem;
+        font-size: 1.4rem;
+        line-height: 2rem;
+    }
 }

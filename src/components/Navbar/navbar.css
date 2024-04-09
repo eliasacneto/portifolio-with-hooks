@@ -26,3 +26,35 @@ nav ul li {
 .nav-link:hover {
     color: #FF6464;
 }
+
+/* Para telas menores que 768px (por exemplo, tablets em modo retrato) */
+@media screen and (max-width: 768px) {
+    nav {
+        justify-content: center;
+        margin-top: 1.3rem;
+    }
+
+    nav ul {
+        margin: 0;
+        padding: 0;
+        display: flex;
+        align-items: center;
+        gap: 2rem;
+    }
+
+    nav ul li {
+        list-style: none;
+        text-align: center;
+    }
+}
+
+/* Para telas menores que 576px (por exemplo, smartphones em modo retrato) */
+@media screen and (max-width: 576px) {
+    nav ul {
+        gap: 2rem;
+    }
+
+    .nav-link {
+        font-size: 1.6rem;
+    }
+}

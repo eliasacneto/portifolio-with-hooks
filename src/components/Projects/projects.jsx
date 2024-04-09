@@ -11,10 +11,12 @@ const Projects = () => {
                 <div className='project-wrapper'>
                     <div className="project-separator">
                         <div className="project-container">
-                            <img className='project-img' src={Project1} alt='project1' />
+                            <a className='project-link' href='https://wefashion.vercel.app/' target='_blank'>
+                                <img className='project-img' src={Project1} alt='project1' />
+                            </a>
 
                             <div className="project-details">
-                                <h1 className='project-name'>WeFashion - Escola de Moda</h1>
+                                <h1 className='project-name'><a className='project-link' href='https://wefashion.vercel.app/' target='_blank'>WeFashion - Escola de Moda</a></h1>
                                 <p className='project-description'>Este é um projeto desenvolvido pelos alunos do curso TECH da Escola DNC. O objetivo do projeto é criar uma página web moderna, utilizando as tecnologias aprendidas para fornecer para a cliente um site onde ela consiga mostrar mais sobre a empresa dela, exibir quais cursos ela oferta e para captar o interesse dos alunos para a equipe comercial dela entrar em contato. Para isso desenvolvemos utilizando a biblioteca JavaScripy React.JS onde também utilizamos o framework Vite para todo o desenvolvimento do projeto.</p>
                             </div>
 
@@ -25,9 +27,11 @@ const Projects = () => {
 
                     <div className="project-separator">
                         <div className="project-container">
-                            <img className='project-img' src={Project2} alt='project2' />
+                            <a className='project-link' href='https://g7-ecommerce-1lrpcumbf-netoeac.vercel.app/' target='_blank'>
+                                <img className='project-img' src={Project2} alt='project2' />
+                            </a>
                             <div className="project-details">
-                                <h1 className='project-name'>DNC Store e-commerce 🛍️</h1>
+                                <h1 className='project-name'><a className='project-link' href='https://g7-ecommerce-1lrpcumbf-netoeac.vercel.app/' target='_blank'>DNC Store e-commerce 🛍️</a></h1>
                                 <p className='project-description'>Este é um projeto de e-commerce desenvolvido pelos alunos do grupo 07 do curso TECH 1 da Escola DNC. O objetivo do projeto é criar uma loja online para venda de produtos, relacionados à área de game, criado em React.JS utilizando o framework Vite. Criamos o design da aplicação seguindo o Figma fornecido pela DNC.</p>
                             </div>
                         </div>
@@ -36,9 +40,11 @@ const Projects = () => {
 
                     <div className="project-separator">
                         <div className="project-container">
-                            <img className='project-img' src={Project3} alt='project3' />
+                            <a className='project-link' href='https://myfortunecookie.netlify.app/' target='_blank'>
+                                <img className='project-img' src={Project3} alt='project3' />
+                            </a>
                             <div className="project-details">
-                                <h1 className='project-name'>Biscoito da Sorte</h1>
+                                <h1 className='project-name'><a className='project-link' href='https://myfortunecookie.netlify.app/' target='_blank'>Biscoito da Sorte</a></h1>
                                 <p className='project-description'>Criei um jogo chamado Fortune Cookie, onde os usuários podem revelar a sorte do dia clicando ou entrando.</p>
                             </div>
                         </div>

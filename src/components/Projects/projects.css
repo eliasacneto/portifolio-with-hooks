@@ -49,3 +49,70 @@ hr {
     border: #E0E0E0 1px solid;
     width: 80%;
 }
+
+.project-link {
+    text-decoration: none;
+    color: #21243D;
+    transition: color .4s ease-in-out;
+}
+
+.project-link:hover {
+    color: #FF6464;
+}
+
+@media screen and (max-width: 768px) {
+    .projects-content {
+        margin-left: 2rem;
+        margin-right: 2rem;
+    }
+
+    .project-container {
+        display: flex;
+        flex-direction: column;
+    }
+
+
+
+    .project-wrapper {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .project-details {
+        margin-left: 0;
+        margin-top: 2rem;
+
+    }
+
+    .project-description {
+        width: 100%;
+        margin-top: 1rem;
+    }
+
+    hr {
+        width: 100%;
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .projects-content {
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+
+    .project-name {
+        font-size: 2.5rem;
+    }
+
+    .project-description {
+        font-size: 1.4rem;
+        margin-top: 1rem;
+    }
+
+    hr {
+        margin-top: 1.5rem;
+        margin-bottom: 1.5rem;
+    }
+}
